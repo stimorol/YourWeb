@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+#nav {
+  background-color: #ff6600;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#content {
+  
+  position: relative;
+  top: 78px;
+  padding: 15px;
+}
+
+.container {
+  
+  width: 800px;
+  margin: 0 auto;
+}
+
+#about, #my-work, #contact-me {
+  
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  width: 150px;
+  padding: 10px 0;
+
+  border: 1px solid #fff;
+  border-radius: 8px;
+
+  list-style-type: none;
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #fff;
+  border: 1px solid #ff6600;
+}
+
+li:hover a {
+  color: #ff6600;
+  font-weight: 800;
+}
+
+#my-avatar {
+  float: left;
+  margin-right: 20px;
+}
+
+#my-avatar img {
+  width: 200px;
+}
+
+h3 {
+  margin: 0;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 10px;
+}
+
+/* my work */
+
+.item {
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item-info {
+  background-color: rgba(255,255,255,.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25px 10px;
+  overflow-y: auto;
+  display: none;
+}
+
+.item:hover .item-info {
+  display: block;
+}
+
+/* contact me */
+#contact-me {
+  
+}
+
+form.contact-form {
+  
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea {
+  border-radius: 5px;
+  border: 1px solid #d6d9dc;
+  width: 100%;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="submit"]{
+  background-color: #5995da;
+  color: #ffffff;
+}
+
+.form-row button[type="reset"]{
+  background-color: gray;
+  color: #000000;
+}
+
+.form-row button:hover{
+  background-color: #76AEED;
+}
+
+.form-row button:active{
+  background-color: #407FC7;
+}
+
+#content > .container > div {
+  padding: 78px 0;
+}
+
+hr.bar {
+  border: 2px solid #ff6600;
+  width: 80px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#about h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#my-work-gallery {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
